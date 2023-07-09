@@ -1,0 +1,1 @@
+python3 test_generator.py --occlusion --cuda {True} --test_name {first_test} --tocg_checkpoint {./mtviton.pth} --gpu_ids {0} --gen_checkpoint {./gen.pth} --datasetting unpaired --dataroot {./data} --data_list {./data/VITON-HD/test_pairs.txt}
